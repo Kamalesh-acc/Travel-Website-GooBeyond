@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
+.sectio {
+    padding-top: 70px;
+    /* Adjust this value to match the height of your navbar */
+}
+
+.bgg {
+    overflow-x: hidden;
+}
+
+.intro-bg {
+    background-image: url('https://res.cloudinary.com/dkppqfh7m/image/upload/v1706590342/dhbgot7fduqhxjgzkouv.jpg');
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.intro-h {
+    color: white;
+}
+
+/*----------------------*/
+
+.transparency {
+
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+.logo {
+    height: 90px;
+    width: 100px;
+    opacity: 0.9;
+}
+
+.nav-text {
+    color: black !important;
+}
+
+.navi-bg {
+    background-color: white;
+    color: black;
+}
+
+
+/*----------------------------------------------------------*/
+.find-img {
+    width: 200px;
+}
+
+.find-img3 {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 23px;
+
+}
+
+.find-p {
+    color: gray;
+    font-size: 13px;
+}
+
+/*-----------------*/
+.form-button {
+
+    background: radial-gradient(circle, #0074D9, #004E98);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+.gradient-button:hover {
+    background: radial-gradient(circle, #004E98, #001F3F);
+
+}
+
+.err-msg {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.success-img {
+    height: 200px;
+    width: 260px;
+
+}
+
+.success-txt {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: roboto;
+}
+
+.form-bg {
+    background-color: #d5ffff;
+}
+
+.start-img {
+    border-radius: 20px;
+}
+
+
+
+
+.custom-modal-size {
+
+    margin: 1.75rem auto;
+}
+
+/*-----------*/
+.h5-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.p-caption {
+    position: absolute;
+    bottom: 20px;
+    /* Adjust the bottom position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.carousel-card {
+    height: 50vh;
+}
+
+.carousel-bg {
+    background-color: #e5e5e5;
+}
+
+
+.carousel-h {
+    font-weight: bold;
+
+}
+
+.carousel-p {
+    font-style: italic;
+}
+
+.carousel-n {
+    font-weight: bold;
+}
+
+
+/*--------------*/
+.tour-bg1 {
+    background-color: white;
+
+
+}
+
+.tour-img-bg1 {
+    background-image: url('https://image.cdn2.seaart.ai/2024-02-02/cmuj3fle878c73d6li7g/06b230e4095e9e0ce57d7179177d6008495b9678_high.webp');
+    background-size: cover;
+
+}
+
+.gradient-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 15px;
+    background: radial-gradient(circle, #FFD700, #FF4500);
+    color: #fff;
+    border: none;
+    outline: none;
+    transition: background 0.3s;
+    font-weight: bold;
+    border-color: black;
+}
+
+.gradient-button:hover {
+    background: radial-gradient(circle, #FFA500, #FF0000);
+}
+
+/*-
+/*--------------*/
+.tour-bg {
+    background-color: white;
+
+}
+
+.tour-img-bg {
+    background-image: url('https://res.cloudinary.com/dkppqfh7m/image/upload/v1706975989/antartica/vtttozqmjz3jgc4ldpjx.jpg');
+    background-size: cover;
+
+}
+
+
+/*--------------*/
+.antartica-bg {
+    background-image: url('https://res.cloudinary.com/dkppqfh7m/image/upload/v1706975989/antartica/vtttozqmjz3jgc4ldpjx.jpg');
+    background-size: cover;
+
+}
+
+.ice-h {
+
+    color: white;
+}
+
+.ice-p {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+
+}
+
+.antartica-txt {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: "Roboto Slab";
+}
+
+/* Button Styles with Radial Gradient */
+.antartica-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    /* White text */
+    background: radial-gradient(circle, #0074D9, #004E98);
+    /* Radial gradient from Antarctic blue to a slightly darker shade */
+    border: 2px solid #ffffff;
+    /* White border */
+    border-radius: 5px;
+    /* Border-radius for rounded corners */
+    transition: background 0.3s ease;
+}
+
+.antartica-btn:hover {
+    background: radial-gradient(circle, #007399, #004466);
+    /* Slightly darker radial gradient on hover */
+}
+
+
+
+.antartica-img {
+
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*------------------*/
+
+.known-icon {
+    color: #0080FE;
+    font-size: 35px;
+}
+
+.known-card {
+    margin: 5px;
+    padding: 10px;
+}
+
+.s:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    ;
+}
+
+/*-----------*/
+
+
+.tour-in-bg {
+    background-image: url('https://wallpapers.com/images/high/beautiful-sea-in-the-afternoon-02o1mu136bsd0jkr.webp');
+    padding: 30px;
+}
+
+.ice-h {
+
+    color: white;
+}
+
+.ice-p {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.ice-btn {
+    background-color: #000080;
+    color: white;
+    font-family: Roboto;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.antartica-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+/*------------------*/
+.handle-h {
+    color: #000435;
+    ;
+    font-family: Roboto;
+}
+
+.handle-img {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.handle-txt-container {
+    width: 400px;
+    margin-left: 10px;
+}
+
+.handle-card {
+    background-color: #d5ffff;
+
+    border-radius: 15px;
+}
+
+.handle-card-h {
+    font-family: Roboto;
+    font-weight: bold;
+    color: #000435;
+}
+
+/*------------------hi-------------*/
+.hi-bg {
+    background-image: url('https://e0.pxfuel.com/wallpapers/59/242/desktop-wallpaper-background-space-2d-space.jpg');
+    border-radius: 20px;
+    color: white;
+}
+
+.hi-img {
+    width: 100%;
+    height: 20vh;
+    border-radius: 20px;
+    max-width: 250px;
+}
+
+
+.hi-button {
+    background: radial-gradient(circle, #663399 20%, #4b0082 80%);
+    color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.hi-button:hover {
+    background: radial-gradient(circle, #8a2be2 20%, #6a0dad 80%);
+
+}
+
+.gradient-button {
+    background: radial-gradient(circle, #0074D9, #004E98);
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+.gradient-button:hover {
+    background: radial-gradient(circle, #004E98, #001F3F);
+}
+
+.form2-bg {
+    background: radial-gradient(circle, rebeccapurple, black);
+    color: white;
+}
+
+/*----------------footer-------*/
+
+
+.contact-bg {
+    background-color: #19232d;
+}
+
+.icon-logo {
+    font-size: 20px;
+    color: #959ead;
+
+}
+
+.icon-logo2 {
+    font-size: 18px;
+    color: white;
+
+}
+
+.icon-logo21 {
+    font-size: 22px;
+    color: white;
+
+}
+
+.footer-btn {
+
+
+
+    background-color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    transition: background-color 0.3s ease-in-out;
+    font-family: roboto;
+    color: black;
+    margin-top: 5px;
+}
+
+.footer-btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.footer-msg {
+    color: #d5ffff;
+    font-family: roboto;
+}
+
+.footer-address {
+    font-size: 15px;
+    color: #5a7184;
+    text-align: center;
+
+}
+
+.footer-info {
+    font-size: 15px;
+    color: white;
+
+
+}
+
+.footer-link {
+    font-size: 15px;
+    color: white;
+    display: inline;
+
+
+}
+
+.icon-bg {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    padding-left: 12px;
+    border-radius: 40px;
+    padding-top: 9.5px;
+}
+
+.footer-contact-logo {
+    height: 200px;
+    width: 200px;
+}
+
+.footer-contact-h {
+    font-size: 18px;
+    color: white;
+    font-family: roboto;
+    text-decoration: underline;
+}
+
+.hr-line {
+    width: 100vw;
+    background-color: white;
+
+}
+
+/*-------------------*/
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #d5ffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 14px;
+
+    padding-right: 16px;
+    padding-left: 15px;
+}
+
+.icon {
+    color: #19232d;
+    font-size: 25px;
+}
+
+.follow-us-icon-container:hover {
+    filter: brightness(110%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*______*/

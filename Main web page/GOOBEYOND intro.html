@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>✈GooBeyond</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="bgg">
+        <nav class="navbar navbar-expand-lg navbar-dark transparency  fixed-top " id="navbarEl">
+            <a class="navbar-brand" href="https://goobeyond.ccbp.tech/"><img class="logo" src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1705317147/travle/r1ek9excmghxnatzszpw.png" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ml-4" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto ">
+
+                    <a class="nav-link " href="https://goobeyond.ccbp.tech/"><span class="">Home</span></a>
+                    <a class="nav-link" href="#enquiry"><span class="">Travel Enquiry</span></a>
+                    <a class="nav-link" href="#top-picks"><span class="">Top Picks</span></a>
+                    <a class="nav-link" href="#countries"><span class="">Tour Packages</span></a>
+                    <a class="nav-link" href="#antartica"><span class="">Antartica Tour</span></a>
+                    <a class="nav-link" href="#services"><span class="">Services</span></a>
+
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="intro-bg text-center d-flex flex-column justify-content-center">
+            <h1 class="intro-h">
+                Welcome to Goo Beyond<br><span class="mt-5 d-none d-sm-inline">Where Every Journey Leads to Unforgettable Adventures!</span>
+            </h1>
+        </div>
+
+
+        <section id="enquiry" class=" section">
+            <div class="container">
+                <hr class="mt-5">
+                <div class="row text-center  mt-5 mb-5 col-12" id="customer">
+
+                    <div class="text-center  col-12">
+                        <h6>3 STEPS TO THE PERFECT TRIP</h6>
+                    </div>
+                    <div class="text-center  col-12">
+                        <h3>FIND TRAVEL PERFECTION, WITH THE WISDOM OF EXPERTS</h3>
+                    </div>
+                    <div class="text-center  col-12">
+                        <p>Naturally head of the class when it comes to luxury travel planning, because we do more homework than anyone else, with a few little sweeteners thrown in! Travel to the four corners of the world, without going around in circles.</p>
+                    </div>
+                    <div class=" d-flex text-center flex-row justify-content-around">
+                        <div class="row">
+                            <div class="pr-2 col-md-4 col-12">
+                                <img class="find-img" src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1705593857/travle/ejyyhksf1twmkhmls1zm.jpg">
+                                <h6>Tell us what you want to do</h6>
+                                <p class="find-p">Share us activities you want to do in your tour</p>
+                            </div>
+                            <div class="pr-2 col-md-4  col-12">
+                                <img class="find-img" src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1705594099/travle/ayjsigq2gnlfu6zb0ewz.jpg">
+                                <h6>Share Your Travel Preference & Dates</h6>
+                                <p class="find-p">You can alter the places and timing to your wish and can add your preferences</p>
+                            </div>
+                            <div class="pr-2 col-md-4  col-12">
+                                <img class="find-img3 mt-3" src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1705594242/travle/aq8dexq6kioibvyp1g8b.jpg">
+                                <h6>We'll give you recommendations</h6>
+                                <p class="find-p">Once you're happy with your final plan, We handle everything for you</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container p-3">
+                        <div class="row text-left">
+                            <div class="col-12 text-center ">
+                                <button id="top-picks" type="button" class="form-button  d-inline" data-toggle="modal" data-target="#opinionModal">
+                                    Lets Plan Your Trip
+                                </button>
+
+                            </div>
+
+                            <div class="modal fade" id="opinionModal" tabindex="-1" role="dialog" aria-labelledby="opinionModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+                                <div class="modal-dialog modal-lg custom-modal-size" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="opinionModalLabel">Travel Inquiry Form</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <!-- Replace this part with your existing form content -->
+
+                                            <div class="container form-bg p-3">
+                                                <div class="row">
+
+                                                    <form style="font-family:roboto;" class="col-12" id="opinionForm">
+
+
+                                                        <div class="form-group">
+                                                            <label for="email">Email ID: *</label>
+                                                            <input type="email" id="email" name="email" class="form-control" aria-describedby="emailHelp" required>
+                                                            <p id="errMsg2" class="err-msg"></p>
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label for="phone">Phone Number: *</label>
+                                                            <input type="tel" id="phone" name="phone" class="form-control" pattern="[0-9]+" title="Please enter only numbers" required>
+                                                        </div>
+                                                        <div class="dropdown mb-3 mt-4">
+                                                            <label for="dropdown">Select a Country:</label>
+
+                                                            <select id="dropdown" name="dropdown">
+                                                                <option value="" disabled selected hidden>Countries</option>
+                                                                <option value="option1" paris>Paris</option>
+                                                                <option value="option2">Japan</option>
+                                                                <option value="option3">India</option>
+                                                                <option value="option4">Spain</option>
+                                                                <option value="option5">Mexico</option>
+                                                                <option value="option6">Thailand</option>
+                                                                <option value="option7">United States</option>
+                                                                <option value="option8">South America</option>
+                                                                <option value="option9">North Africa</option>
+                                                                <option value="option10">South Africa</option>
+                                                                <option value="option11">Australia</option>
+
+                                                                <option value="option12">Antartica</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="travelDate">Date of Travel:</label>
+                                                            <input type="date" id="travelDate" name="travelDate" class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="opinion">Additional Information::</label>
+                                                            <textarea id="opinion" name="opinion" rows="4" class="form-control" placeholder="Additional information - Regarding Customization of Plan"></textarea>
+                                                        </div>
+
+                                                        <button class="btn btn-primary" type="submit">Submit</button>
+
+                                                        <p class="err-msg" id="errorMessage"></p>
+                                                    </form>
+                                                    <div class="col-12 d-none text-center " id="submittedMessage">
+                                                        <img class="success-img" src="https://i.pinimg.com/originals/32/b6/f2/32b6f2aeeb2d21c5a29382721cdc67f7.gif">
+                                                        <p class="success-txt mt-3">Thanks for choosing Go Beyond! Your details are received, and we'll be in touch soon to plan your journey together.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+        </section>
+        <hr class="mt-4">
+
+
+        <h2 class="text-center mb-4 mt-4 section">Top Picks of This Month </h2>
+        <div class="container-fluid carousel-bg mb-5">
+
+            <div class="container">
+                <div class="row">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1706978743/travle/xtua0d7wxopbwnrrh0l6.jpg" class=" d-block w-100" alt="...">
+                                <a href="https://gbparis.ccbp.tech/" target="_blank">
+                                    <div class="carousel-caption d-none d-md-block d-flex flex-column justify-content-between carousel-card">
+                                        <p></p>
+                                        <h1><span class="carousel-h">Paris</span><br><span class="carousel-p d-none d-sm-inline">City of Loves</span><br><span class="carousel-n">#1</span></h1>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1707136050/avmfj0zshajeaezmukgl.jpg" class="d-block w-100" alt="...">
+                                <a href="https://gbspain.ccbp.tech/" target="_blank">
+                                    <div class="carousel-caption d-none d-md-block d-flex flex-column justify-content-between carousel-card">
+                                        <p></p>
+                                        <h2><span class="carousel-h">Spain</span> <br><span class="carousel-p d-none d-sm-inline">The Golden Sunland of Spain</span><br><span class="carousel-n">#2</span></h2>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1707136045/dgpnbhnjzfnpwizthjjr.jpg" class=" d-block w-100" alt="...">
+                                <a href="https://gbjapan.ccbp.tech/" target="_blank">
+                                    <div class="carousel-caption d-none d-md-block d-flex flex-column justify-content-between carousel-card">
+                                        <p></p>
+                                        <h1><span class="carousel-h">Japan</span><br><span class="carousel-p d-none d-sm-inline">Land of Rising Sun</span><br><span class="carousel-n">#3</span></h1>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a id="countries" class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="container mt-5 p-3 tour-img-bg1 pr-5 pl-5">
+            <div class="row tour-bg1 mt-0">
+
+
+                <div class="p-3 col-12 d-flex align-items-center">
+                    <div class=" w-100 text-center">
+                        <h2>Experience Unforgettable Journeys with Our Exclusive Tours</h2>
+
+                        <h4 id="antartica" class="mt-3">Experience the Wonders of Worldwide Exploration</h4>
+                        <a href="https://gbcountries.ccbp.tech/" target="_blank"><button class="gradient-button mt-4 mb-2">Lets go</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <hr class="mt-5 mb-5">
+
+        <h1 class="text-center">Discover the Untouched Beauty of Antarctica</h1>
+
+
+        <div class="container-fluid mt-5 p-3 tour-img-bg pr-5 pl-5 section">
+            <div class="container">
+                <div class="row tour-bg mt-0">
+                    <div class=" col-12 col-md-5 text-center d-flex align-items-center p-3 w-100">
+                        <img class="antartica-img w-100 " src="https://www.daysoftheyear.com/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=cover%2Cheight=650%2Cq=40%2Csharpen=1%2Cwidth=956/wp-content/uploads/penguin-awareness-day.jpg">
+                    </div>
+
+                    <div class="p-3 col-12 col-md-7 d-flex align-items-center">
+                        <div class="antartica-txt w-100 text-center">
+                            <h3>Antarctica Awaits: Dive into the Icy Adventure</h3>
+                            <h4 id="services" class="mt-3">Discover the magic of Antarctica! Join us for an unforgettable adventure into the heart of the great white continent</h4>
+                            <a href="https://gbantartica.ccbp.tech/" id="contactUsButton"><button class="antartica-btn mt-4 mb-2">Lets go</button></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <hr class="mt-4 mb-4">
+        <div class="container mt-5">
+            <div class="row  ">
+
+                <h1 class="handle-h col-12 text-center">We'll handle your trip for you:</h1>
+                <div class=" p-3 col-12 col-md-6">
+                    <div class=" d-flex flex-row justify-content-between handle-card">
+                        <img class="handle-img" src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1705504600/xh3ufaa0xtciuc6eesh9.gif">
+                        <div class="handle-txt-container d-inline">
+                            <p class="handle-card-h mt-2">Pick and Drop Service</p>
+                            <p>we will offer pick up and drop service any where in town and city with of free charge.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" p-3 col-12 col-md-6">
+                    <div class="handle-card d-flex flex-row justify-content-between">
+                        <img class="handle-img " src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1705504082/travle/k71i4imfqdxgia7n1acp.png">
+                        <div class="handle-txt-container ">
+                            <p class="handle-card-h mt-2">Travel Now and Pay Later</p>
+                            <p>We will offer no EMI and pay later with in one year so no need to worry about immediate payment.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" p-3 col-12 col-md-6">
+                    <div class="d-flex flex-row justify-content-between handle-card">
+                        <img class="handle-img" src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1705504085/travle/rkvtr8evqp3tjb6dul5z.png">
+                        <div class="handle-txt-container">
+                            <p class="handle-card-h mt-2">Meal</p>
+                            <p>In our trip we offer foods in favour of clients taste and avoid the foods that clients are allergic to it.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" p-3 col-12 col-md-6">
+                    <div class="d-flex flex-row justify-content-between handle-card">
+                        <img class="handle-img" src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1705504093/travle/egjjdfr3lrnuaesjzrii.jpg">
+                        <div class="handle-txt-container">
+                            <p class="handle-card-h mt-2">Accomodation</p>
+                            <p>We take of Accomodation and high class luxurious hotel in your trip and safety camps.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="mt-5 mb-4">
+        </div>
+        <div class="container mb-5">
+            <div class="row">
+                <h2 class="col-12 text-center mb-4">GooBeyond Known for:</h2>
+                <div class="col-lg-4 col-md-6 col-12 s">
+                    <div class="text-center known-card card">
+                        <i class="fas known-icon fa-hotel"></i>
+                        <h3>HighClass Hotel</h3>
+                        <p>Experience luxury and comfort in our high-class hotels, offering exquisite amenities and impeccable service for an unforgettable stay.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 s">
+                    <div class=" text-center  known-card card">
+                        <i class="fas known-icon fa-utensils"></i>
+                        <h3>Signature Dish</h3>
+                        <p>Indulge your taste buds with our signature dishes, crafted by top chefs to provide a culinary experience that will delight your senses.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 s">
+                    <div class="text-center  known-card card">
+                        <i class="fas known-icon fa-bullhorn"></i>
+                        <h3>Safety Guide</h3>
+                        <p>Your safety is our priority. Explore confidently with our comprehensive safety guide, ensuring a secure and enjoyable travel experience.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 s">
+                    <div class="text-center  known-card card">
+                        <i class="fas known-icon fa-globe-asia"></i>
+                        <h3>Around the World</h3>
+                        <p>Embark on a journey around the world and discover diverse cultures, breathtaking landscapes, and unique experiences that await you.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 s">
+                    <div class="text-center  known-card card">
+                        <i class="fas known-icon fa-plane"></i>
+                        <h3>Fastest Travel</h3>
+                        <p>Reach your destination swiftly with our fastest travel options, ensuring you spend more time exploring and less time in transit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 s">
+                    <div class=" text-center  known-card card">
+                        <i class="fas known-icon fa-hiking"></i>
+                        <h3>Adventures</h3>
+                        <p>Embark on thrilling adventures with our curated travel experiences, designed to satisfy the wanderlust in every adventurer's heart.</p>
+                    </div>
+                </div>
+
+
+                <hr>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row hi-bg d-flex flex-row ">
+                <div class="col-12 col-md-5 d-flex align-items-center flex-row justify-content-center">
+                    <img class="hi-img m-3" src="https://images.squarespace-cdn.com/content/v1/574faff6f8baf35e5da43485/1553915162526-7IVIAC9TU8QTBP6AIT6G/110-chef.gif">
+                </div>
+                <div class="m-3 col-12 col-md-6">
+                    <h1 id="greet"></h1>
+                    <p>Go Beyond with us, where each adventure is a gateway to extraordinary moments and unforgettable memories.</p>
+                    <div class="container text-center p-3">
+                        <div class="container text-center p-3">
+                            <div class="row text-center">
+                                <button type="button" class=" text-center hi-button" data-toggle="modal" data-target="#uniqueModal">
+                                    Lets Get Started
+                                </button>
+
+
+                                <!-- Unique Modal with ID "uniqueModal" -->
+                                <div class="modal fade" id="uniqueModal" tabindex="-1" role="dialog" aria-labelledby="uniqueModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+                                    <div class="modal-dialog modal-lg custom-modal-size" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 style="color: black; " class="modal-title" id="uniqueModalLabel">Guide </h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="container form2-bg ">
+                                                    <div class="row d-flex flex-row justify-content-center  p-3">
+
+                                                        <h2 class="col-12 ml-4 text-center">Welcome to Go Beyond <span class=""> 🌍✈️ </span></h2>
+                                                        <h3 class="col-12 text-center ">your gateway to unforgettable adventures!</h3>
+
+                                                        <p class="mt-5 col-12">Explore our meticulously handpicked travel packages, thoughtfully designed to enchant your senses and create unforgettable memories. Let the exploration begin!🌟🚀</p>
+                                                        <div class="text-right col-12">
+                                                            <h6 class="d-inline mr-2 mt-1">Tour Packages</h6><i class="fas fa-reply fa-rotate-180 mb-2 mr-3" style="color: #63E6BE;"></i><a href="https://gbcountries.ccbp.tech/" target="_blank"><button class="ml-auto gradient-button" href="">Take me there</button></a>
+                                                        </div>
+
+                                                        <p class="mt-5 col-12">Experience the beauty of Antarctica with Go Beyond! ❄️ Join our December expedition for breathtaking landscapes and extraordinary moments in the great white continent.🐧🌌✨</p>
+                                                        <div class="text-right col-12">
+                                                            <h6 class="d-inline mr-2 mt-1">Antartica</h6><i class="fas fa-reply fa-rotate-180 mb-2 mr-3" style="color: #63E6BE;"></i><a href="https://antartica.ccbp.tech/" target="_blank"><button class="ml-auto gradient-button" href="">Take me there</button></a>
+                                                        </div>
+                                                        <p class="text-center mt-5">Questions?🤔 Our customer care is here to assist ☎️. You can fill form with contact information we will conatact you soon</p>
+                                                        <a href="#customer" id="contactUsButton"><button class="gradient-button">Contact us</button></a>
+
+                                                    </div>
+                                                </div><!-- Replace this part with your unique form content -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="follow-us-section pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <hr class="col-12 mb-5 mt-5">
+                    <div class="col-12">
+                        <h1 class="follow-us-section-heading">Follow Us</h1>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex flex-row justify-content-center">
+                            <a class="" href="https://twitter.com/GoobeyondTravel/" target="_blank">
+                                <div class="follow-us-icon-container">
+                                    <i class="fab fa-twitter icon follow-hover "></i>
+                                </div>
+                            </a>
+                            <a class=" follow-hover" href="https://www.instagram.com/goobeyondtravels/" target="_blank">
+                                <div class="follow-us-icon-container">
+                                    <i class="fab fa-instagram icon"></i>
+                                </div>
+                            </a>
+                            <a class=" follow-hover" href="https://www.facebook.com/profile.php?id=61556356348286" target="_blank">
+                                <div class="follow-us-icon-container">
+                                    <i class="fab fa-facebook icon"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="contact-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-3 mt-5">
+                        <div class="text-center  mb-3 mr-5">
+                            <a class=" " href="https://goobeyond.ccbp.tech/" target="_blank">
+                                <img class="  footer-contact-logo" src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1705317147/travle/r1ek9excmghxnatzszpw.png" \>
+                            </a>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="col-6 col-md-3 pt-md-5">
+                        <h1 class="footer-contact-h">Quick Links</h1>
+                        <a href="https://bgaboutus.ccbp.tech/" target="_blank">
+                            <p class="footer-link w-100">About us<br></p>
+                        </a>
+                        <a href="https://gbservices.ccbp.tech/" target="_blank">
+                            <p class="footer-link w-100">Terms of Service<br></p>
+                        </a>
+                        <a href="https://gbfaq.ccbp.tech/" target="_blank">
+                            <p class="footer-link w-100">FAQ<br></p>
+                        </a>
+                        <a href="https://gbterms.ccbp.tech/" target="_blank">
+                            <p class="footer-link w-100">Terms of Conditions<br></p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-md-3 pt-md-5 ">
+                        <h1 class="footer-contact-h mb-3">Subscribe Our Newsletter</h1>
+                        <form id="footer-btn" class="">
+                            <input id="footer-input" class="w-100 form-control" type="email" name="email" placeholder="Enter your Email ID" aria-describedby="emailHelp" required>
+                            <button type="submit" class="footer-btn">Join Now</button>
+                            <p class="footer-msg d-none" id="success-msg">Successfully Subscribed</p>
+                        </form>
+                    </div>
+
+
+
+
+                    <div class="col-6 text col-md-3 pt-md-5 mt-5 mt-md-0">
+                        <div class="d-flex flex-column  justify-content-center">
+                            <h1 class="footer-contact-h">Contact Us</h1>
+                            <div class="d-flex flex-row mt-1">
+                                <i class="mt-2 icon-logo2 fa fa-envelope" aria-hidden="true"></i>
+                                <p class="mt-1 ml-3 footer-info">GooBeyond.Travels@gmail.com</p>
+                            </div>
+                            <div class="d-flex flex-row mt-1">
+                                <i class="mt-2 icon-logo2 fa fa-phone" aria-hidden="true"></i>
+                                <p class="mt-1 ml-3 footer-info">
+                                    +919876543210<br>
+                                    +919012345678
+                                </p>
+                            </div>
+                            <div class="d-flex flex-row mt-1">
+                                <i class="mt-2 icon-logo21 fa fa-whatsapp"></i>
+                                <p class="mt-1 ml-3 footer-info">+919876543210</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="col-12 hr-line" />
+
+                    <div class=" col-12">
+
+                        <div class="d-flex flex-row justify-content-center">
+                            <i class=" icon-logo2 fa fa-copyright" aria-hidden="true"></i>
+                            <h1 class=" footer-address ml-2"> 2024 by Goobeyond. All rights reserved. </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    </div>
+</body>
+
+</html>

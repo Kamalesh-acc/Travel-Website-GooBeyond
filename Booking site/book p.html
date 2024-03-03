@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelifooter.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="bggg">
+        <nav class="navbar navbar-expand-lg navbar-light   nav-bg navbar-light shadow-lg" id="navbarEl">
+            <a class="navbar-brand" href="https://goobeyond.ccbp.tech/"><img class="logo" src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1705317147/travle/r1ek9excmghxnatzszpw.png" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ml-4" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto ">
+
+                    <a class="nav-link " href="https://gbparis.ccbp.tech/"><span class="">Paris</span></a>
+
+
+
+
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid pt-5 pb-5 book-bg ">
+            <div class="container book-bg-in shadow">
+                <div class="row p-3">
+
+                    <form class="" id="book-form">
+
+                        <div class="container ml-4 mt-5">
+                            <div class="row d-flex flex-row ">
+                                <div class="mr-3">
+                                    <img class="book-img " src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1706609675/dnos01bafk2ztyp77hdu.jpg">
+                                </div>
+                                <div class="img-txt">
+                                    <h1 class=" ">Tour to paris</h1>
+                                    <h3>City of Love</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container mt-5 book-card-bg   p-4 shadow w-100">
+                            <div class="row d-flex flex-column">
+
+
+
+                                <h6 class="mb-4">Booking seats :</h6>
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p>No.of seats to book</p>
+                                    <div class="">
+                                        <div class="buttons-container d-flex flex-row m-auto">
+
+                                            <button type="button" onclick="minus()" class="button1" id="decrementButton">-</button>
+
+                                            <span id=total-txt class="numbers">0</span>
+
+                                            <button type="button" onclick="plus()" class="button1" id="incrementButton">+</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="container mt-5  book-card-bg p-4 shadow">
+                            <div class="row d-flex flex-row ">
+                                <h6 class="col-12">Select a date</h6>
+
+
+                                <div class="col-12 col-md-6 ">
+                                    <button class="book-button" type="button" onclick="toggleActive(this); updateDate('01-10 Mar')">01-10 Mar</button>
+                                </div>
+                                <div class="col-12 col-md-6 ">
+                                    <button class="book-button" type="button" onclick="toggleActive(this); updateDate('01-10 April')">01-10 April</button>
+                                </div>
+                                <div class="col-12 col-md-6 ">
+                                    <button class="book-button" type="button" onclick="toggleActive(this); updateDate('01-10 May')">01-10 May</button>
+                                </div>
+                                <div class="col-12 col-md-6 ">
+                                    <button class="book-button" type="button" onclick="toggleActive(this); updateDate('01-10 June')">01-10 June</button>
+                                </div>
+                                <div class="col-12 col-md-6 ">
+                                    <button class="book-button" type="button" onclick="toggleActive(this); updateDate('01-10 July')">01-10 July</button>
+                                </div>
+                                <div class="col-12 col-md-6 ">
+                                    <button class="book-button" type="button" onclick="toggleActive(this); updateDate('01-10 Aug')">01-10 Aug</button>
+                                </div>
+                                <div class="col-12 col-md-6 ">
+                                    <button class="book-button" type="button" onclick="toggleActive(this); updateDate('01-10 Sept')">01-10 Sept</button>
+                                </div>
+                                <div class="col-12 col-md-6 ">
+                                    <button class="book-button" type="button" onclick="toggleActive(this); updateDate('01-10 Oct')">01-10 Oct</button>
+                                </div>
+                                <div class="col-12 col-md-6 ">
+                                    <button class="book-button" type="button" onclick="toggleActive(this); updateDate('01-10 Nov')">01-10 Nov</button>
+                                </div>
+                                <div class="col-12 col-md-6 ">
+                                    <button class="book-button" type="button" onclick="toggleActive(this); updateDate('01-10 Dec')">01-10 Dec</button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="container mt-5  book-card-bg p-4 shadow">
+                            <div class="row d-flex flex-column ">
+                                <h6>Contact Information :</h6>
+
+                                <div class="form-group">
+                                    <label for="email">Email ID: *</label>
+                                    <input required type="email" id="email" name="email" class="form-control" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number: *</label>
+                                    <input required type="tel" id="phone" name="phone" class="form-control" pattern="[0-9]+" title="Please enter only numbers">
+                                </div>
+                                <!-- Add the 'required' attribute to other input fields as needed -->
+
+
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="container mt-5  book-card-bg  p-4 shadow">
+                            <div class="row d-flex flex-row ">
+                                <h6>Cancellation & Refund Policy :</h6>
+                                <p>This experience offers 100% guaranteed refund with all cancellation, at least 24 hours before the event.</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="container mt-5  book-card-bg  p-4 shadow ">
+                            <div class="row   d-flex flex-column">
+                                <h6 class="mb-3">Booking Summary :</h6>
+                                <p>No.of seats to Reserve : <span class="ml-3" id="bookedd-seats"></span></p>
+                                <p class="err-msg d-none" id="seatErr">required*</p>
+                                <p>Date :<span class="ml-3" id="bookedd-date"></span></p>
+                                <p class="err-msg d-none col-12" id="dateErr">required*</p>
+                            </div>
+                            <div class="form-group">
+                                <input required id="tas" type="checkbox">
+                                <label class="d-inline" for="tas">By checking this box, you are agree with the <a class="d-inline" href="https://gbterms.ccbp.tech/"> Terms and Conditions</a> of GooBeyond</label>
+                            </div>
+
+
+
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary book-btn">Submit</button>
+                            </div>
+                            <div class="col-12 d-none text-center " id="submittedMessage">
+                                <img class="success-img" src="https://i.pinimg.com/originals/32/b6/f2/32b6f2aeeb2d21c5a29382721cdc67f7.gif">
+                                <p class="success-txt mt-3">Thanks for choosing Go Beyond! Your details are received, and we'll be in touch soon to plan your journey together.</p>
+                            </div>
+                        </div>
+
+
+
+
+                    </form>
+
+
+                    <!-- The modal -->
+                    <div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Reservation Confirmation</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <img class="thx" src="https://cdn.dribbble.com/userupload/9405202/file/original-210676b4064394884b3d11e974593049.gif">
+                                    <p>Seats confirmed! Let's make unforgettable memories together. Thanks for choosing GoBeyond Travel!</p>
+                                    <h4>Our team will reach out to finalize the details shortly</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="follow-us-section pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="follow-us-section-heading">Follow Us</h1>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex flex-row justify-content-center">
+                                <a class="" href="https://twitter.com/GoobeyondTravel/" target="_blank">
+                                    <div class="follow-us-icon-container">
+                                        <i class="fab fa-twitter icon follow-hover "></i>
+                                    </div>
+                                </a>
+                                <a class=" follow-hover" href="https://www.instagram.com/goobeyondtravels/" target="_blank">
+                                    <div class="follow-us-icon-container">
+                                        <i class="fab fa-instagram icon"></i>
+                                    </div>
+                                </a>
+                                <a class=" follow-hover" href="https://www.facebook.com/profile.php?id=61556356348286" target="_blank">
+                                    <div class="follow-us-icon-container">
+                                        <i class="fab fa-facebook icon"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="contact-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-3 mt-5">
+                        <div class="text-center  mb-3 mr-5">
+                            <img class="  footer-contact-logo" src="https://res.cloudinary.com/dkppqfh7m/image/upload/v1705317147/travle/r1ek9excmghxnatzszpw.png" \>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="col-6 col-md-3 pt-md-5">
+                        <h1 class="footer-contact-h">Quick Links</h1>
+                        <a href="https://bgaboutus.ccbp.tech/" target="_blank">
+                            <p class="footer-link w-100">About us<br></p>
+                        </a>
+                        <a href="https://gbservices.ccbp.tech/" target="_blank">
+                            <p class="footer-link w-100">Terms of Service<br></p>
+                        </a>
+                        <a href="https://gbfaq.ccbp.tech/" target="_blank">
+                            <p class="footer-link w-100">FAQ<br></p>
+                        </a>
+                        <a href="https://gbterms.ccbp.tech/" target="_blank">
+                            <p class="footer-link w-100">Terms of Conditions<br></p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-md-3 pt-md-5 ">
+                        <h1 class="footer-contact-h mb-3">Subscribe Our Newsletter</h1>
+                        <form id="footer-btn" class="">
+                            <input id="footer-input" class="w-100 form-control" type="email" name="email" placeholder="Enter your Email ID" aria-describedby="emailHelp" required>
+                            <button type="submit" class="footer-btn">Join Now</button>
+                            <p class="footer-msg d-none" id="success-msg">Successfully Subscribed</p>
+                        </form>
+                    </div>
+
+
+
+
+                    <div class="col-6 text col-md-3 pt-md-5 mt-5 mt-md-0">
+                        <div class="d-flex flex-column  justify-content-center">
+                            <h1 class="footer-contact-h">Contact Us</h1>
+                            <div class="d-flex flex-row mt-1">
+                                <i class="mt-2 icon-logo2 fa fa-envelope" aria-hidden="true"></i>
+                                <p class="mt-1 ml-3 footer-info">GooBeyond.Travels@gmail.com</p>
+                            </div>
+                            <div class="d-flex flex-row mt-1">
+                                <i class="mt-2 icon-logo2 fa fa-phone" aria-hidden="true"></i>
+                                <p class="mt-1 ml-3 footer-info">
+                                    +919876543210<br>
+                                    +919012345678
+                                </p>
+                            </div>
+                            <div class="d-flex flex-row mt-1">
+                                <i class="mt-2 icon-logo21 fa fa-whatsapp"></i>
+                                <p class="mt-1 ml-3 footer-info">+919876543210</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="col-12 hr-line" />
+
+                    <div class=" col-12">
+
+                        <div class="d-flex flex-row justify-content-center">
+                            <i class=" icon-logo2 fa fa-copyright" aria-hidden="true"></i>
+                            <h1 class=" footer-address ml-2"> 2024 by Goobeyond. All rights reserved. </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>

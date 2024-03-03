@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+
+.bggg {
+    overflow-x: hidden;
+}
+
+.img-txt {
+    color: white;
+}
+
+.book-img {
+    width: 130px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.book-bg {
+    background: radial-gradient(circle, #3498db, #87CEFA, #001F3F);
+
+
+
+
+}
+
+
+
+.button1 {
+    border-radius: 100px;
+    width: 35px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.book-card-bg {
+    background-color: white;
+    border-radius: 20px;
+
+
+}
+
+.book-btn {
+    background-color: #002b5a;
+}
+
+.numbers {
+    font-weight: bold;
+}
+
+
+.err-msg {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+/*--------------------------------*/
+
+.book-button {
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    color: #19232d;
+    text-decoration: none;
+
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+
+}
+
+.book-button:hover {
+    background: radial-gradient(circle, #3498db, #87CEFA, #001F3F);
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+}
+
+.active {
+    background: radial-gradient(circle, #3498db, #87CEFA, #001F3F);
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+}
+
+.button1:hover {
+    background: radial-gradient(circle, #0077B6, #5E60CE, #85A7F8);
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+}
+
+p {
+    font-family: roboto;
+}
+
+/*-------------*/
+.thx {
+    height: 40vh;
+    width: 100%;
+}
+
+/*--------------------------------*/
+.contact-bg {
+    background-color: #19232d;
+}
+
+.icon-logo {
+    font-size: 20px;
+    color: #959ead;
+
+}
+
+.icon-logo2 {
+    font-size: 18px;
+    color: white;
+
+}
+
+.icon-logo21 {
+    font-size: 22px;
+    color: white;
+
+}
+
+.footer-btn {
+
+
+
+    background-color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    transition: background-color 0.3s ease-in-out;
+    font-family: roboto;
+    color: black;
+    margin-top: 5px;
+}
+
+.footer-btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.footer-msg {
+    color: #d5ffff;
+    font-family: roboto;
+}
+
+.footer-address {
+    font-size: 15px;
+    color: #5a7184;
+    text-align: center;
+
+}
+
+.footer-info {
+    font-size: 15px;
+    color: white;
+
+
+}
+
+.footer-link {
+    font-size: 15px;
+    color: white;
+    display: inline;
+
+
+}
+
+.icon-bg {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    padding-left: 12px;
+    border-radius: 40px;
+    padding-top: 9.5px;
+}
+
+.footer-contact-logo {
+    height: 200px;
+    width: 200px;
+}
+
+.footer-contact-h {
+    font-size: 18px;
+    color: white;
+    font-family: roboto;
+    text-decoration: underline;
+}
+
+.hr-line {
+    width: 100vw;
+    background-color: white;
+
+}
+
+/*-------------------*/
+
+.follow-us-section-heading {
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #d5ffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 14px;
+
+    padding-right: 16px;
+    padding-left: 15px;
+}
+
+.icon {
+    color: #19232d;
+    font-size: 25px;
+}
+
+.follow-us-icon-container:hover {
+    filter: brightness(110%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*______*/
+/*---------------*/
+.logo {
+    height: 90px;
+    width: 100px;
+}
+
+
+
+.nav-txt {
+    color: #040858;
+}
+
+.nav-bg {
+    background-color: white;
+}

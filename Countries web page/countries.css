@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Lora:ital,wght@0,500;1,500&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,500;1,500&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,500;1,500&family=Roboto+Slab:wght@100..900&display=swap');
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown Button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #f2f2f2;
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Links inside the Dropdown */
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*----------------------*/
+
+.transparency {
+
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+.logo {
+    height: 90px;
+    width: 100px;
+    opacity: 0.9;
+}
+
+.nav-text {
+    color: black !important;
+}
+
+.navi-bg {
+    background-color: white;
+    color: black;
+}
+
+
+/*----------------------------------------------------------*/
+.countries-bg {
+    background-image: url('https://res.cloudinary.com/dkppqfh7m/image/upload/v1706844400/travle/o3dyt3rmozfc12dpa6f8.jpg');
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+
+.countries-bg-txt {
+    color: white;
+}
+
+.countries-text-bg {
+
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+
+
+/*--------------*/
+.caurosel-bg1 {
+    background-color: #ffd3d3;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: roboto;
+
+    font-weight: bold;
+}
+
+.caurosel-bg2 {
+    background-color: #e57373;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: roboto;
+    font-weight: bold;
+
+
+}
+
+.caurosel-bg3 {
+    background-color: #FF9933;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: roboto;
+
+    font-weight: bold;
+}
+
+.caurosel-bg4 {
+    background-color: #E01B22;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: roboto;
+
+    font-weight: bold;
+}
+
+.caurosel-bg5 {
+    background-color: #90EE90;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: roboto;
+
+    font-weight: bold;
+}
+
+.caurosel-bg6 {
+    background-color: #0054A4;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: roboto;
+
+    font-weight: bold;
+}
+
+.caurosel-bg7 {
+    background-color: #007FFF;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: roboto;
+
+    font-weight: bold;
+}
+
+.caurosel-bg8 {
+    background-color: #29AB87;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: roboto;
+
+    font-weight: bold;
+}
+
+.caurosel-bg9 {
+    background-color: #EDC9AF;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: roboto;
+
+    font-weight: bold;
+}
+
+.caurosel-bg10 {
+    background-color: #008000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: roboto;
+
+    font-weight: bold;
+}
+
+.caurosel-bg11 {
+    background-color: #FFD700;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: roboto;
+
+    font-weight: bold;
+}
+
+/*----------*/
+a:hover {
+    text-decoration: none;
+    /* Remove underline on hover */
+    color: #00f;
+    /* Change color on hover */
+}
+
+/*----------*/
+
+.caurosel-icons {
+    font-size: 18px;
+    color: black;
+}
+
+.carousel-image {
+    height: 400px;
+    /* Adjust as needed */
+    object-fit: cover;
+    /* Maintain aspect ratio */
+}
+
+.caurosel-known {
+    font-family: roboto;
+}
+
+.caurosel-icons-bg {
+    background-color: #f4f4f4;
+    display: inline;
+    border-radius: 20px;
+}
+
+.countries-card-h {
+    font-family: roboto;
+    color: black;
+}
+
+.countries-card-p {
+
+    font-weight: 300;
+}
+
+.price-h {
+    font-family: roboto;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.price-p {
+    font-family: roboto;
+}
+
+.rating-h {
+    font-family: roboto;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.rating-p {
+    font-family: roboto;
+
+}
+
+
+
+.countries-readmore {
+    font-weight: bold;
+    cursor: pointer;
+    font-family: roboto;
+}
+
+
+
+.container-each {
+    background-color: #ffffff;
+
+    border-radius: 10px;
+
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.container-each2 {
+
+    border-radius: 0px 50px;
+}
+
+.cimg {
+
+    height: 10% !important;
+
+}
+
+/*----------------------*/
+.contact-bg {
+    background-color: #19232d;
+}
+
+.icon-logo {
+    font-size: 20px;
+    color: #959ead;
+
+}
+
+.icon-logo2 {
+    font-size: 18px;
+    color: white;
+
+}
+
+.icon-logo21 {
+    font-size: 22px;
+    color: white;
+
+}
+
+.footer-btn {
+
+
+
+    background-color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    transition: background-color 0.3s ease-in-out;
+    font-family: roboto;
+    color: black;
+    margin-top: 5px;
+}
+
+.footer-btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.footer-msg {
+    color: #d5ffff;
+    font-family: roboto;
+}
+
+.footer-address {
+    font-size: 15px;
+    color: #5a7184;
+    text-align: center;
+
+}
+
+.footer-info {
+    font-size: 15px;
+    color: white;
+
+
+}
+
+.icon-bg {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    padding-left: 12px;
+    border-radius: 40px;
+    padding-top: 9.5px;
+}
+
+.footer-contact-logo {
+    height: 200px;
+    width: 200px;
+}
+
+.footer-contact-h {
+    font-size: 18px;
+    color: white;
+    font-family: roboto;
+    text-decoration: underline;
+}
+
+.hr-line {
+    width: 100vw;
+    background-color: white;
+
+}
+
+/*-------------------*/
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #d5ffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 14px;
+
+    padding-right: 16px;
+    padding-left: 15px;
+}
+
+.icon {
+    color: #19232d;
+    font-size: 25px;
+}
+
+.follow-us-icon-container:hover {
+    filter: brightness(110%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*______*/
+.overflow-bg {
+    overflow-x: hidden;
+}
+
+/*-----------------------------*/
+.close {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: black;
+    /* You can adjust the color as needed */
+
+}
+
+/* Styles for the modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.antartica-bg {
+    background-image: url('https://res.cloudinary.com/dkppqfh7m/image/upload/v1706951106/antartica/ny2xtokunc5aua9jazt4.jpg');
+    background-size: cover;
+
+}
+
+.ice-h {
+
+    color: white;
+}
+
+.ice-p {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+
+}
+
+.antartica-txt {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: "Roboto Slab";
+}
+
+
+.antartica-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+
+    background: radial-gradient(circle, #0099cc, #006699);
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.antartica-btn:hover {
+    background: radial-gradient(circle, #007399, #004466);
+
+}
+
+.custom-modal {
+    background-color: transparent;
+
+}
+
+.antartica-img {
+
+
+    border-radius: 20px;
+}
