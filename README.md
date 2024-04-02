@@ -16,6 +16,8 @@ JavaScript: Interactivity and dynamic elements are incorporated using JavaScript
 Showcase
 GooBeyond serves as a showcase of my coding proficiency and creativity in frontend web development. Feel free to explore the website and witness firsthand the skills and techniques employed in its creation.
 
+If you want to use my code, duplicate the code for as many countries you need.
+
 Contact
 For any inquiries or feedback regarding GoBeyond, you can reach me at [kamalesh.official1@gmail.com]. I welcome any suggestions or collaborations.
 
